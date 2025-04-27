@@ -22,7 +22,6 @@ const shivam = {
   pronouns: "He/Him",
   location: "Delhi, India",
   role: "DevOps Engineer | Backend Developer",
-  education: "B.Tech Computer Science @ Hamidpur Institute of Technology (2025)",
   currentFocus: "Building scalable cloud infrastructure, optimizing CI/CD pipelines, and developing robust backend systems.",
   interests: ["Microservices", "Cloud Native Technologies", "Automation", "Open Source"],
   funFact: "Successfully managed a crowdfunding event's backend, handling significant transaction volume!"
