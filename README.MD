@@ -32,15 +32,12 @@ I'm currently building AI infrastructure at Spheron Network, where I spend my da
 
 ### 🐍 Contribution Snake
 <div align="center">
-  
-![Snake animation](https://raw.githubusercontent.com/ShivamB25/ShivamB25/output/github-contribution-grid-snake-dark.svg)
 
-</div>
-
-### ⏱️ Wakatime Coding Stats
-<div align="center">
-
-![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShivamB25&theme=tokyonight&hide_border=true&layout=compact)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShivamB25/ShivamB25/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShivamB25/ShivamB25/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/ShivamB25/ShivamB25/output/github-snake.svg" />
+</picture>
 
 </div>
 
