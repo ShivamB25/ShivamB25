@@ -30,20 +30,10 @@ I'm currently building AI infrastructure at Spheron Network, where I spend my da
 
 </div>
 
-### 🐍 Contribution Snake
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShivamB25/ShivamB25/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShivamB25/ShivamB25/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/ShivamB25/ShivamB25/output/github-snake.svg" />
-</picture>
-
-</div>
 
 ## 🚀 What I'm Building These Days
 
-Right now, I'm knee-deep in some fascinating problems around making AI actually work at scale. Here's what's keeping me busy:
+Right now, I'm deep in some fascinating problems around making AI actually work at scale. Here's what's keeping me busy:
 
 - **AI Infrastructure**: Designing systems that can handle massive AI workloads without crashing (those NVIDIA B200/H200 clusters don't manage themselves!)
 - **RAG Applications**: Building secure, multi-tenant systems where different users can query their own documents without seeing each other's data
@@ -56,7 +46,7 @@ Right now, I'm knee-deep in some fascinating problems around making AI actually 
 ```
 Primary Languages:     JavaScript, TypeScript, Python, C++
 Emerging Tech:         Rust, Go
-Web Technologies:      RESTful APIs, gRPC, WebSockets
+Web Technologies:      RESTful APIs, WebSockets
 Frontend:              Next.js, React
 Backend:               FastAPI, Express.js, Node.js
 ```
