@@ -1,188 +1,174 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Shivam%20Bansal&fontSize=70&animation=fadeIn&fontAlignY=38&desc=DevOps%20Engineer%20%7C%20Backend%20Developer&descAlignY=51&descAlign=62" alt="Header Banner"/>
-</div>
+# Hi there, I'm Shivam Bansal 👋
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/shivam-bansal-devops/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:Shivambansal.in30@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://github.com/Shivamb25">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <img src="https://komarev.com/ghpvcounter/?username=Shivamb25&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views"/>
-</p>
+**GenAI Engineer | Full-Stack Developer | Open Source Contributor**
 
-## 👨‍💻 About Me
-
-```typescript
-const shivam = {
-  pronouns: "He/Him",
-  location: "Delhi, India",
-  role: "DevOps Engineer | Backend Developer",
-  currentFocus: "Building scalable cloud infrastructure, optimizing CI/CD pipelines, and developing robust backend systems.",
-  interests: ["Microservices", "Cloud Native Technologies", "Automation", "Open Source"],
-  funFact: "Successfully managed a crowdfunding event's backend, handling significant transaction volume!"
-};
-```
-
----
-
-## 🛠️ Technical Skills
-
-<details>
-  <summary>☁️ DevOps, Cloud & Infrastructure</summary>
-  <br/>
-  <p align="left">
-    <img src="https://skillicons.dev/icons?i=kubernetes" height="30" alt="kubernetes logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=docker" height="30" alt="docker logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=aws" height="30" alt="amazonwebservices logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=gcp" height="30" alt="googlecloud logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=digitalocean" height="30" alt="digitalocean logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=linux" height="30" alt="linux logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=nginx" height="30" alt="nginx logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=jenkins" height="30" alt="jenkins logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=prometheus" height="30" alt="prometheus logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=grafana" height="30" alt="grafana logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=terraform" height="30" alt="terraform logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=git" height="30" alt="git logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=githubactions" height="30" alt="github actions logo" />&nbsp;
-  </p>
-</details>
-
-<details>
-  <summary>💻 Languages & Backend</summary>
-  <br/>
-  <p align="left">
-    <img src="https://skillicons.dev/icons?i=typescript" height="30" alt="typescript logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=javascript" height="30" alt="javascript logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=python" height="30" alt="python logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=cpp" height="30" alt="cplusplus logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=go" height="30" alt="go logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=express" height="30" alt="express logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=nodejs" height="30" alt="nodejs logo" />&nbsp;
-    <!-- Add RESTful API representation if desired, maybe a generic API badge -->
-     <img src="https://img.shields.io/badge/REST%20API-0277BD?style=for-the-badge&logo=api&logoColor=white" height="30" alt="REST API Badge"/>&nbsp;
-  </p>
-</details>
-
-<details>
-  <summary>🛢️ Databases</summary>
-  <br/>
-  <p align="left">
-    <img src="https://skillicons.dev/icons?i=mongodb" height="30" alt="mongodb logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=postgres" height="30" alt="postgresql logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=mysql" height="30" alt="mysql logo" />&nbsp;
-     <img src="https://img.shields.io/badge/ScyllaDB-3C3C3C?style=for-the-badge&logo=scylladb&logoColor=white" height="30" alt="ScyllaDB logo"/>&nbsp;
-  </p>
-</details>
-
-<details>
-  <summary>🔧 Other Tools & Concepts</summary>
-  <br/>
-  <p align="left">
-    <img src="https://skillicons.dev/icons?i=rabbitmq" height="30" alt="rabbitmq logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=ffmpeg" height="30" alt="ffmpeg logo" />&nbsp;
-    <img src="https://skillicons.dev/icons?i=bash" height="30" alt="bash logo" />&nbsp;
-    <!-- Add Computer Networks representation if desired -->
-    <img src="https://img.shields.io/badge/Networking-007ACC?style=for-the-badge&logo=dependabot&logoColor=white" height="30" alt="Networking Badge"/>&nbsp;
-  </p>
-</details>
-
----
-
-## 🚀 Featured Projects
-
-<details>
-  <summary>🎬 HLS Microservice Backend</summary>
-  <br/>
-  <p>A scalable microservices architecture designed for efficient video-to-HLS format conversion.</p>
-  <ul>
-    <li>Implemented RESTful API using TypeScript & Express.js for video processing.</li>
-    <li>Utilized RabbitMQ for asynchronous task queuing and MongoDB for metadata storage.</li>
-    <li>Leveraged FFmpeg for video transcoding operations.</li>
-    <li>Containerized the application with Docker and deployed on Kubernetes using Helm charts.</li>
-  </ul>
-  <p><a href="https://github.com/Shivamb25/hls-microservice-backend" target="_blank">View Repository</a></p>
-</details>
-
-<details>
-  <summary>☁️ Plex-rclone Docker Image</summary>
-  <br/>
-  <p>A custom Docker image integrating Plex Media Server with rclone for seamless access to cloud storage.</p>
-  <ul>
-    <li>Enabled mounting various cloud storage providers (via rclone) within the Plex container.</li>
-    <li>Implemented secure mounting options and performance tuning using Shell Scripting.</li>
-    <li>Provided support for custom rclone configurations.</li>
-  </ul>
-  <p><a href="https://github.com/Shivamb25/plex-rclone" target="_blank">View Repository</a></p>
-</details>
-
-<details>
-  <summary>🎟️ Interstellar IMAX Event Backend (Delhi Reddit)</summary>
-  <br/>
-  <p>Developed the backend ticketing system for a large-scale community event.</p>
-  <ul>
-    <li>Built a multi-threaded ticketing system with WebSockets to prevent double bookings and frontend locking.</li>
-    <li>Integrated Razorpay for payment processing, handling significant transaction volume.</li>
-    <li>Contributed to the successful organization of an IMAX screening for over 100 users.</li>
-  </ul>
-  <!-- No public repo link provided in resume -->
-</details>
-
----
-
-## 🌱 Open Source Contributions
-
-<details>
-  <summary>🔵 Arsky Project</summary>
-  <br/>
-  <ul>
-    <li>Migrated the project codebase to TypeScript, enhancing type safety and developer experience.</li>
-    <li>Integrated ESLint and Prettier for improved code quality and consistency.</li>
-    <li>Upgraded the CI/CD pipeline using GitHub Actions for more efficient builds and deployments.</li>
-  </ul>
-  <p><a href="https://github.com/arsky-org/arsky/pulls?q=is%3Apr+author%3AShivamb25" target="_blank">View Contributions</a></p>
-</details>
-
-<details>
-  <summary>🌐 Spheron CLI</summary>
-  <br/>
-  <ul>
-    <li>Updated Node.js TypeScript definitions to improve the development workflow.</li>
-    <li>Corrected plan naming inconsistencies within the CLI configuration.</li>
-  </ul>
-  <p><a href="https://github.com/spheronFdn/CLI/pulls?q=is%3Apr+author%3AShivamb25" target="_blank">View Contributions</a></p>
-</details>
-
-<details>
-  <summary>💾 Gdu (Go Disk Usage Analyzer)</summary>
-  <br/>
-  <ul>
-    <li>Identified and fixed potential nil pointer dereferences in the `fileItemSelected` method by adding necessary nil checks.</li>
-  </ul>
-  <p><a href="https://github.com/dundee/gdu/pulls?q=is%3Apr+author%3AShivamb25" target="_blank">View Contributions</a></p>
-</details>
-
----
+I'm currently building AI infrastructure at Spheron Network, where I spend my days architecting scalable inference systems and creating AI applications that actually work in production. When I'm not wrestling with distributed systems or optimizing GPU clusters, you'll find me contributing to open source projects or organizing tech meetups (like that time I got 100+ Reddit users together for an IMAX screening!).
 
 ## 📊 GitHub Stats & Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shivamb25&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Shivamb25&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=dracula&hide_border=false" height="150" alt="languages graph" />
+  
+![Shivam's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShivamB25&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=ShivamB25&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShivamB25&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+
 </div>
 
-<br clear="both">
-
+### 🏆 GitHub Achievements
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Shivamb25/Shivamb25/output/snake.svg" alt="Snake animation" />
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=ShivamB25&theme=tokyonight&no-frame=true&column=4&margin-w=15&margin-h=15)
+
 </div>
+
+## 🚀 What I'm Building These Days
+
+Right now, I'm knee-deep in some fascinating problems around making AI actually work at scale. Here's what's keeping me busy:
+
+- **AI Infrastructure**: Designing systems that can handle massive AI workloads without crashing (those NVIDIA B200/H200 clusters don't manage themselves!)
+- **RAG Applications**: Building secure, multi-tenant systems where different users can query their own documents without seeing each other's data
+- **LLM Deployment**: Creating platforms that make deploying large language models less of a nightmare for other developers
+- **Community Building**: Bringing developers together because the best solutions happen when smart people collaborate
+
+## 🛠️ Technical Expertise
+
+### Languages & Frameworks
+```
+Primary Languages:     JavaScript, TypeScript, Python, C++
+Emerging Tech:         Rust, Go
+Web Technologies:      RESTful APIs, gRPC, WebSockets
+Frontend:              Next.js, React
+Backend:               FastAPI, Express.js, Node.js
+```
+
+### AI & Machine Learning
+```
+LLM Platforms:         Hugging Face, LiteLLM, OpenAI
+AI Frameworks:         RAG pipelines, Vector databases
+Model Deployment:      LoRA fine-tuning, Automated inference
+Hardware Optimization: NVIDIA B200/H200 systems
+```
+
+### Cloud & DevOps
+```
+Cloud Platforms:       Google Cloud Platform, AWS
+Containerization:      Docker, Kubernetes, Helm
+Monitoring:            Prometheus, Custom dashboards
+CI/CD:                 GitHub Actions, Automated pipelines
+```
+
+### Databases & Storage
+```
+NoSQL:                 MongoDB, Scylla
+SQL:                   PostgreSQL
+Caching:               Redis
+Cloud Storage:         S3 architecture, Secure artifact storage
+```
+
+## 🎯 Projects I'm Proud Of
+
+### [LLMizer](https://github.com/spheronnetwork/llmizer) - LLM Deployment Orchestration Platform
+Ever tried deploying a large language model and ended up with a mess of scripts and configs? Yeah, me too. That's why I built this.
+
+**What makes it actually useful:**
+- **FastAPI Backend**: Handles the heavy lifting for model management and inference
+- **Next.js Dashboard**: Real-time monitoring that doesn't make your eyes bleed
+- **LiteLLM Integration**: One interface to rule them all (OpenAI, Anthropic, you name it)
+- **Actually Works in Production**: Because demos are easy, production is hard
+
+**Tech Stack:** FastAPI, Next.js, LiteLLM, Docker, Kubernetes
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer Banner"/>
-</div>
+### [Audio Craft](https://github.com/shivambansal/audio-craft) - Professional Text-to-Speech Library
+Turns out Google's Gemini API can generate surprisingly good audio. So I wrapped it in a Python library that doesn't suck.
+
+**Why you might care:**
+- **Async-First Design**: Won't block your entire app while generating audio
+- **Multi-Language Support**: 24 languages because English isn't the only language
+- **Redis Queue System**: For when you need to generate thousands of audio files without melting your server
+- **Multi-Speaker Dialogue**: Create conversations that sound like actual different people talking
+
+**Tech Stack:** Python, Google Gemini API, Asyncio, Redis
+
+---
+
+### [HLS Microservice Backend](https://github.com/shivambansal/hls-microservice) - Video Processing Pipeline
+Video streaming is harder than it looks. You can't just throw a .mp4 file at users and hope their internet can handle it. This converts videos to HLS format so they stream smoothly.
+
+**The interesting bits:**
+- **Microservice Architecture**: Each service does one thing well (and can be debugged separately when things break)
+- **Queue-Based Processing**: RabbitMQ handles the video conversion queue because FFmpeg takes forever
+- **Kubernetes Ready**: Helm charts included because manually deploying microservices is a special kind of hell
+- **RESTful API**: Upload, process, track status - the basics that actually work
+
+**Tech Stack:** TypeScript, Express.js, MongoDB, RabbitMQ, FFmpeg, Docker, Kubernetes
+
+---
+
+### [Plex-rclone](https://github.com/shivambansal/plex-rclone) - Cloud Media Server Solution
+Have terabytes of media stored in the cloud but want to stream it through Plex? This Docker image has you covered.
+
+**What it solves:**
+- **Secure Cloud Mounting**: Safely connects to Google Drive, Dropbox, whatever you use
+- **Streaming Optimized**: Configured so your movies don't buffer every 30 seconds
+- **Flexible Setup**: Works with pretty much any cloud storage provider rclone supports
+
+**Tech Stack:** Docker, Plex, rclone, Linux, Shell Scripting
+
+## 🌟 Open Source Contributions
+
+I've been lucky to learn from amazing open source projects, so I try to give back when I can. Here are some projects where my PRs actually got merged:
+
+### [Helicone AI Gateway](https://github.com/Helicone/helicone) - Rust, Tokio
+- **Enhanced Error Handling**: Replaced generic error types with specific variants for precise debugging
+- **Code Quality Improvements**: Led major refactoring to decompose monolithic functions
+- **Performance Optimization**: Eliminated 100+ lines of duplicated code by creating reusable abstractions
+
+### [Arsky Project](https://github.com/mary-ext/atproto-browser) - TypeScript Migration
+- **TypeScript Migration**: Improved type safety and developer experience
+- **Code Standards**: Implemented ESLint and Prettier for consistent code quality
+- **CI/CD Enhancement**: Upgraded deployment pipeline with GitHub Actions
+
+### [Spheron CLI](https://github.com/spheronnetwork/spheron-cli) - Node.js, TypeScript
+- **Developer Experience**: Updated TypeScript definitions for better IDE support
+- **Configuration Accuracy**: Fixed deployment script configurations
+
+### [Gdu](https://github.com/dundee/gdu) - Go
+- **Reliability**: Fixed potential nil pointer crashes in file handling
+- **Defensive Programming**: Added proper nil checks for critical variables
+
+## 🏆 Recognition & Achievements
+
+- **Reddit VP Recognition**: Acknowledged by Reddit's VP of International Growth for successfully organizing the Interstellar IMAX community event for 100+ users
+- **Payment Processing**: Handled ₹2 lakh in transactions through secure Razorpay integration
+- **Academic Excellence**: Graduated with 8.9 CGPA in Computer Science Engineering
+- **Production Impact**: Built systems handling high-scale AI inference and real-time user interactions
+
+## 💡 What Gets Me Excited
+
+Here's the thing about building software—anyone can make something work on their laptop. The real challenge (and the fun part) is making it work for thousands of users without breaking, scaling gracefully, and actually solving real problems people have.
+
+What really gets me going:
+- **Making AI Less Intimidating**: Too many great AI tools are stuck behind complex setups. I want to change that.
+- **Building Community**: Some of my best learning has happened in Slack channels and Discord servers with other developers. I try to create those spaces.
+- **Code That Doesn't Break at 3 AM**: Because nobody wants to debug a production issue during their weekend (been there, done that).
+- **Open Source**: If I figure out something useful, why not share it? The best developers I know learned by reading other people's code.
+
+## 📫 Let's Connect
+
+Always up for a good conversation about tech, AI, or that weird bug you've been chasing for three days. Seriously, hit me up.
+
+- **Email**: [shivambansal.in30@gmail.com](mailto:shivambansal.in30@gmail.com)
+- **GitHub**: You're already here! Feel free to poke around my repos
+- **Phone**: +91 9953165877
+
+*Fair warning: I might get excited and talk your ear off about whatever I'm currently building.*
+
+---
+
+⭐ **Fun Fact**: I once organized an IMAX screening for the Reddit community that was so successful, it caught the attention of Reddit's international leadership team!
+
+*Always building, always learning, always sharing.*
