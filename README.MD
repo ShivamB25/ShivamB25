@@ -1,3 +1,10 @@
+<div align="center">
+
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=ShivamB25.ShivamB25)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=GenAI+Engineer+%7C+AI+Infrastructure;Full-Stack+Developer+%7C+Cloud+Native;Open+Source+Contributor+%7C+Community+Builder;Building+the+future+of+AI+systems...)](https://git.io/typing-svg)
+
+</div>
+
 # Hi there, I'm Shivam Bansal 👋
 
 **GenAI Engineer | Full-Stack Developer | Open Source Contributor**
@@ -20,6 +27,20 @@ I'm currently building AI infrastructure at Spheron Network, where I spend my da
 <div align="center">
 
 ![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=ShivamB25&theme=tokyonight&no-frame=true&column=4&margin-w=15&margin-h=15)
+
+</div>
+
+### 🐍 Contribution Snake
+<div align="center">
+  
+![Snake animation](https://raw.githubusercontent.com/ShivamB25/ShivamB25/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+### ⏱️ Wakatime Coding Stats
+<div align="center">
+
+![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShivamB25&theme=tokyonight&hide_border=true&layout=compact)
 
 </div>
 
@@ -167,8 +188,38 @@ Always up for a good conversation about tech, AI, or that weird bug you've been 
 
 *Fair warning: I might get excited and talk your ear off about whatever I'm currently building.*
 
+## 🌐 Find Me Around the Web
+
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shivambansal)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shivambansal.in30@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShivamB25)
+[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://reddit.com/u/ShivamB25)
+
+</div>
+
+## 📈 Activity Graph
+
+<div align="center">
+  
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ShivamB25&theme=tokyo-night&hide_border=true&area=true)
+
+</div>
+
+## ⚡ Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 ---
 
+<div align="center">
+  
 ⭐ **Fun Fact**: I once organized an IMAX screening for the Reddit community that was so successful, it caught the attention of Reddit's international leadership team!
 
 *Always building, always learning, always sharing.*
+
+**Thanks for stopping by!** ![Visitor Count](https://komarev.com/ghpvc/?username=ShivamB25&color=blueviolet&style=flat-square&label=Profile+Views)
+
+</div>
