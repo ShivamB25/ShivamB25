@@ -46,7 +46,7 @@ Right now, I'm deep in some fascinating problems around making AI actually work 
 ```
 Primary Languages:     JavaScript, TypeScript, Python, C++
 Emerging Tech:         Rust, Go
-Web Technologies:      RESTful APIs, WebSockets
+Web Technologies:      RESTful APIsa, WebSockets
 Frontend:              Next.js, React
 Backend:               FastAPI, Express.js, Node.js
 ```
