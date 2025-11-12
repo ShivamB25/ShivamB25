@@ -9,7 +9,6 @@
 
 **GenAI Engineer | Full-Stack Developer | Open Source Contributor**
 
-I'm currently building AI infrastructure at Spheron Network, where I spend my days architecting scalable inference systems and creating AI applications that actually work in production. When I'm not wrestling with distributed systems or optimizing GPU clusters, you'll find me contributing to open source projects or organizing tech meetups (like that time I got 100+ Reddit users together for an IMAX screening!).
 
 ## 📊 GitHub Stats & Activity
 
