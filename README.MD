@@ -45,7 +45,3 @@ Docker image for streaming cloud-stored media through Plex. Handles secure mount
 **Infrastructure:** GCP, AWS, Docker, Kubernetes, Helm, Prometheus
 
 **Databases:** PostgreSQL, MongoDB, Scylla, Redis
-
-## Contact
-
-Email: shivambansal.in30@gmail.com | GitHub: ShivamB25 | LinkedIn: shivambansal
