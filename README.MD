@@ -52,4 +52,4 @@ I like this part of the job more than I probably should. A lot of my better work
 ## Elsewhere
 
 - GitHub: [@ShivamB25](https://github.com/ShivamB25)
-- LinkedIn: [shivambansal](https://www.linkedin.com/in/shivambansal/)
+- LinkedIn: [shivambansal](https://www.linkedin.com/in/shivam-bansal-daesira/)
