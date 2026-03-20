@@ -1,47 +1,55 @@
 # Shivam Bansal
 
-GenAI Engineer | Full-Stack Developer | Open Source Contributor
+I build AI gateways, inference tooling, and backend systems.
 
-## Currently Working On
+Most of my public work since February 2021 sits at the intersection of LLM infra, developer tooling, and upstream debugging when production systems get weird.
 
-**AI Infrastructure** — Designing systems for large-scale AI workloads (B200/H200 clusters)
+## What I do
 
-**RAG Applications** — Multi-tenant document querying with proper data isolation
+- AI infrastructure for large model workloads, especially B200/H200-era deployment questions
+- RAG systems with tenant isolation and operational guardrails that hold up in production
+- LLM deployment workflows that are easier to run and debug in production
+- Upstream debugging and OSS fixes when tools break under real usage
 
-**LLM Deployment** — Making model deployment less painful for other developers
-
-## Projects
+## Selected projects
 
 ### LLMizer
-LLM deployment orchestration platform. FastAPI backend, Next.js dashboard, LiteLLM for unified provider interface. Actually runs in production.
+Private LLM deployment orchestration platform with a FastAPI backend, a Next.js dashboard, and LiteLLM as the provider layer. I use it to manage the messy parts of model rollout, provider switching, and day-to-day operations.
 
-### Audio Craft
-Text-to-speech library using Google's Gemini API. Async-first, 24 languages, Redis queue for batch processing, multi-speaker dialogue support.
+### [Audio Craft](https://github.com/ShivamB25/audio-craft-py)
+Async-first text-to-speech library built around Gemini TTS workflows. Includes batch processing, multi-speaker dialogue support, and support for 24 languages.
 
-### HLS Microservice Backend
-Video processing pipeline that converts to HLS format. RabbitMQ for job queuing, Kubernetes-ready with Helm charts.
+### [HLS Microservice Backend](https://github.com/ShivamB25/hls-microservice-backend)
+Video processing backend that converts uploads to HLS, pushes jobs through RabbitMQ, and is set up for containerized deployment.
 
-### Plex-rclone
-Docker image for streaming cloud-stored media through Plex. Handles secure mounting and streaming optimization.
+### [TraceRule](https://github.com/ShivamB25/TraceRule)
+An experiment in policy and compliance tooling that turns policy PDFs into structured rules and testable validation flows.
 
-## Open Source Contributions
+## Open source work since 2021
 
-**Helicone AI Gateway** (Rust/Tokio) — Replaced generic error types with specific variants, refactored monolithic functions, eliminated 100+ lines of duplicated code.
+- [dundee/gdu](https://github.com/dundee/gdu): I started by reporting a panic in empty folders in [issue #273](https://github.com/dundee/gdu/issues/273), then came back with merged work in [#436](https://github.com/dundee/gdu/pull/436), [#437](https://github.com/dundee/gdu/pull/437), [#440](https://github.com/dundee/gdu/pull/440), [#445](https://github.com/dundee/gdu/pull/445), and [#493](https://github.com/dundee/gdu/pull/493) to [#496](https://github.com/dundee/gdu/pull/496). That work was mostly around TUI behavior, safer defaults, navigation, and non-interactive flags.
+- [Routr](https://github.com/Routr-technology): on the gateway side, I shipped analytics, RBAC, Auth0 onboarding, audit logging, and security hardening in [gateway #21](https://github.com/Routr-technology/gateway/pull/21), [#24](https://github.com/Routr-technology/gateway/pull/24), [#70](https://github.com/Routr-technology/gateway/pull/70), [#71](https://github.com/Routr-technology/gateway/pull/71), [#72](https://github.com/Routr-technology/gateway/pull/72), and [#85](https://github.com/Routr-technology/gateway/pull/85). On the frontend side, I worked on accessibility, performance, and content cleanup in [frontend #17](https://github.com/Routr-technology/frontend/pull/17), [#19](https://github.com/Routr-technology/frontend/pull/19), [#22](https://github.com/Routr-technology/frontend/pull/22), [#30](https://github.com/Routr-technology/frontend/pull/30), [#31](https://github.com/Routr-technology/frontend/pull/31), and [#32](https://github.com/Routr-technology/frontend/pull/32).
+- [Helicone AI Gateway](https://github.com/Helicone/ai-gateway) and [ArgonautAli/arsky](https://github.com/ArgonautAli/arsky): shipped reliability cleanup in [Helicone #180](https://github.com/Helicone/ai-gateway/pull/180) and a TypeScript migration plus CI/linting cleanup in [Arsky #3](https://github.com/ArgonautAli/arsky/pull/3).
+- Smaller upstream contributions landed in [Portkey-AI/gateway #1477](https://github.com/Portkey-AI/gateway/pull/1477), [smithery-ai/cli #484](https://github.com/smithery-ai/cli/pull/484), and [anomalyco/models.dev #1095](https://github.com/anomalyco/models.dev/pull/1095).
 
-**Arsky Project** — TypeScript migration, ESLint/Prettier setup, GitHub Actions CI/CD.
+## How I work
 
-**Spheron CLI** — Updated TypeScript definitions, fixed deployment configs.
+- I like product work, but I am usually most useful in the messy middle: infrastructure, integration problems, reliability fixes, and ugly edge cases.
+- When I hit a bug in a tool I depend on, I try to reproduce it properly, file something maintainers can act on, and send a fix upstream if I can.
+- Public issue reports I have raised include LiteLLM, OpenCode, Serena, Modal, AWS Neuron samples, Flexprice, and Komf.
 
-**Gdu** (Go) — Fixed nil pointer crashes in file handling.
+I like this part of the job more than I probably should. A lot of my better work starts with reproducing a bug nobody else wants to touch, then either fixing it upstream or building around it.
 
-## Tech
+## Tech I use most
 
-**Languages:** JavaScript, TypeScript, Python, C++, some Rust and Go
+- Languages: TypeScript, Python, Go, Rust, C++
+- AI/ML: LiteLLM, OpenAI, Hugging Face, vector search, LoRA workflows, RAG pipelines
+- Backend: FastAPI, Node.js, Express, service-to-service APIs
+- Frontend: Next.js, React, Tailwind
+- Infra: Docker, Kubernetes, Helm, GCP, AWS, Prometheus
+- Data: PostgreSQL, MongoDB, Redis, Scylla, ClickHouse
 
-**AI/ML:** Hugging Face, LiteLLM, OpenAI, RAG pipelines, vector databases, LoRA fine-tuning
+## Elsewhere
 
-**Backend:** FastAPI, Express.js, Node.js | **Frontend:** Next.js, React
-
-**Infrastructure:** GCP, AWS, Docker, Kubernetes, Helm, Prometheus
-
-**Databases:** PostgreSQL, MongoDB, Scylla, Redis
+- GitHub: [@ShivamB25](https://github.com/ShivamB25)
+- LinkedIn: [shivambansal](https://www.linkedin.com/in/shivambansal/)
