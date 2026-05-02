@@ -1,4 +1,4 @@
-# Shivam Bansal
+# Shivam 
 
 I build AI gateways, inference tooling, and backend systems.
 
