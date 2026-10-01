@@ -13,9 +13,6 @@ Most of my public work since February 2021 sits at the intersection of LLM infra
 
 ## Selected projects
 
-### LLMizer
-Private LLM deployment orchestration platform with a FastAPI backend, a Next.js dashboard, and LiteLLM as the provider layer. I use it to manage the messy parts of model rollout, provider switching, and day-to-day operations.
-
 ### [Audio Craft](https://github.com/ShivamB25/audio-craft-py)
 Async-first text-to-speech library built around Gemini TTS workflows. Includes batch processing, multi-speaker dialogue support, and support for 24 languages.
 
