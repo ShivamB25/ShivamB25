@@ -1,52 +1,40 @@
-# Shivam 
+# Shivam
 
-I build AI gateways, inference tooling, and backend systems.
+I write developer tools, inference services, and self-hosted software, mostly in TypeScript, Python, and Go.
 
-Most of my public work since February 2021 sits at the intersection of LLM infra, developer tooling, and upstream debugging when production systems get weird.
+## Recent projects
 
-## What I do
+### [Sonarr Anime List Builder](https://github.com/ShivamB25/sonarr-anime-list-builder)
 
-- AI infrastructure for large model workloads, especially B200/H200-era deployment questions
-- RAG systems with tenant isolation and operational guardrails that hold up in production
-- LLM deployment workflows that are easier to run and debug in production
-- Upstream debugging and OSS fixes when tools break under real usage
+Builds seasonal anime import lists for Sonarr from AniList and MyAnimeList data, mapped to TVDB IDs. Runs on Cloudflare Workers/D1 or self-hosted Bun/SQLite. Recent work fixes seasonal coverage and makes source-sync failures visible.
 
-## Selected projects
+### [Komga TypeScript SDK](https://github.com/ShivamB25/komga-sdk-typescript)
 
-### [Audio Craft](https://github.com/ShivamB25/audio-craft-py)
-Async-first text-to-speech library built around Gemini TTS workflows. Includes batch processing, multi-speaker dialogue support, and support for 24 languages.
+A generated SDK for the Komga media-server API. Uses native Fetch with zero runtime dependencies, isolated clients, typed responses, and explicit error results.
 
-### [HLS Microservice Backend](https://github.com/ShivamB25/hls-microservice-backend)
-Video processing backend that converts uploads to HLS, pushes jobs through RabbitMQ, and is set up for containerized deployment.
+### [IndicConformer ASR](https://github.com/ShivamB25/indicconformer-realtime-asr)
 
-### [TraceRule](https://github.com/ShivamB25/TraceRule)
-An experiment in policy and compliance tooling that turns policy PDFs into structured rules and testable validation flows.
+A FastAPI speech-to-text service with REST and streaming WebSocket APIs, OpenAI-compatible endpoints, and voice activity detection. Recent changes reduce Silero VAD processing overhead and fix cancellation of queued VAD jobs.
 
-## Open source work since 2021
+### [Simplismart Deployment CLI](https://github.com/ShivamB25/simplismart-deployment-cli)
 
-- [dundee/gdu](https://github.com/dundee/gdu): I started by reporting a panic in empty folders in [issue #273](https://github.com/dundee/gdu/issues/273), then came back with merged work in [#436](https://github.com/dundee/gdu/pull/436), [#437](https://github.com/dundee/gdu/pull/437), [#440](https://github.com/dundee/gdu/pull/440), [#445](https://github.com/dundee/gdu/pull/445), and [#493](https://github.com/dundee/gdu/pull/493) to [#496](https://github.com/dundee/gdu/pull/496). That work was mostly around TUI behavior, safer defaults, navigation, and non-interactive flags.
-- [Routr](https://github.com/Routr-technology): on the gateway side, I shipped analytics, RBAC, Auth0 onboarding, audit logging, and security hardening in [gateway #21](https://github.com/Routr-technology/gateway/pull/21), [#24](https://github.com/Routr-technology/gateway/pull/24), [#70](https://github.com/Routr-technology/gateway/pull/70), [#71](https://github.com/Routr-technology/gateway/pull/71), [#72](https://github.com/Routr-technology/gateway/pull/72), and [#85](https://github.com/Routr-technology/gateway/pull/85). On the frontend side, I worked on accessibility, performance, and content cleanup in [frontend #17](https://github.com/Routr-technology/frontend/pull/17), [#19](https://github.com/Routr-technology/frontend/pull/19), [#22](https://github.com/Routr-technology/frontend/pull/22), [#30](https://github.com/Routr-technology/frontend/pull/30), [#31](https://github.com/Routr-technology/frontend/pull/31), and [#32](https://github.com/Routr-technology/frontend/pull/32).
-- [Helicone AI Gateway](https://github.com/Helicone/ai-gateway) and [ArgonautAli/arsky](https://github.com/ArgonautAli/arsky): shipped reliability cleanup in [Helicone #180](https://github.com/Helicone/ai-gateway/pull/180) and a TypeScript migration plus CI/linting cleanup in [Arsky #3](https://github.com/ArgonautAli/arsky/pull/3).
-- Smaller upstream contributions landed in [Portkey-AI/gateway #1477](https://github.com/Portkey-AI/gateway/pull/1477), [smithery-ai/cli #484](https://github.com/smithery-ai/cli/pull/484), and [anomalyco/models.dev #1095](https://github.com/anomalyco/models.dev/pull/1095).
+Deployment lifecycle commands, health checks, and timezone-aware scaling schedules. Idempotent start/stop operations and JSON output let the same commands work interactively or in scripts.
 
-## How I work
+### [bend-json](https://github.com/ShivamB25/bend-json)
 
-- I like product work, but I am usually most useful in the messy middle: infrastructure, integration problems, reliability fixes, and ugly edge cases.
-- When I hit a bug in a tool I depend on, I try to reproduce it properly, file something maintainers can act on, and send a fix upstream if I can.
-- Public issue reports I have raised include LiteLLM, OpenCode, Serena, Modal, AWS Neuron samples, Flexprice, and Komf.
+An experimental JSON parser and encoder written in Bend 2. Preserves number spelling and duplicate object members, validates Unicode, and enforces parsing and output limits. Pre-release; native-backend verification is still unresolved.
 
-I like this part of the job more than I probably should. A lot of my better work starts with reproducing a bug nobody else wants to touch, then either fixing it upstream or building around it.
+## Merged upstream contributions
 
-## Tech I use most
+- **[oh-my-pi](https://github.com/can1357/oh-my-pi/pull/13485):** stopped repeated OAuth refreshes when a provider rejects a fresh token; fixed account pinning during concurrent credential removal.
+- **[anacrolix/dht](https://github.com/anacrolix/dht/pull/86):** fixed a remotely triggerable crash on malformed DHT queries, alongside protocol, traversal, and concurrency bugs.
+- **[gotext](https://github.com/leonelquinteros/gotext/pull/141):** corrected catalog escaping, plural handling, and locale lookup; prevented generated files from escaping the configured output directory.
+- **gdu:** [preserved directory statistics across JSON export/import](https://github.com/dundee/gdu/pull/603) and [made Ctrl+C stop a scan without losing navigable partial results](https://github.com/dundee/gdu/pull/606).
 
-- Languages: TypeScript, Python, Go, Rust, C++
-- AI/ML: LiteLLM, OpenAI, Hugging Face, vector search, LoRA workflows, RAG pipelines
-- Backend: FastAPI, Node.js, Express, service-to-service APIs
-- Frontend: Next.js, React, Tailwind
-- Infra: Docker, Kubernetes, Helm, GCP, AWS, Prometheus
-- Data: PostgreSQL, MongoDB, Redis, Scylla, ClickHouse
+## Open upstream work
 
-## Elsewhere
+- **[CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI/pull/3160)** — authentication and protocol fixes covering localhost checks, OAuth callbacks, token-file permissions, and OpenAI Responses translation. Not yet merged.
 
-- GitHub: [@ShivamB25](https://github.com/ShivamB25)
-- LinkedIn: [shivambansal](https://www.linkedin.com/in/shivam-bansal-daesira/)
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/shivam-bansal-daesira/) · [GitHub](https://github.com/ShivamB25)
